@@ -28,6 +28,7 @@ const USER_CONFIG = {
       horoscopeDate: '6-21',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: 'https://lml520.mysxl.cn/',
+      
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -47,17 +48,6 @@ const USER_CONFIG = {
     },
   ],
 
-
-  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID:'yCP4OqBwTjYq6Nuc7zTQfvLUEwdaEfZtUa-ULkZJLXc',
-
-  CALLBACK_USERS: [
-    {
-      name:'自己',
-      // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id:'oyJB76DOD643oXtpvjwjdcIP1Abc',
-    }
-  ],
   
   
     SLOT_LIST: [
@@ -86,6 +76,19 @@ const USER_CONFIG = {
     // 你可以不断按格式往下增加
     // ...
   ],
+  
+  
+  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
+  CALLBACK_TEMPLATE_ID: 'yCP4OqBwTjYq6Nuc7zTQfvLUEwdaEfZtUa-ULkZJLXc',
+
+  CALLBACK_USERS: [
+    {
+      name:'自己',
+      // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id:'oyJB76DOD643oXtpvjwjdcIP1Abc',
+    }
+  ],
+  
 
 }
 
