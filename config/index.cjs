@@ -56,9 +56,10 @@ const USER_CONFIG = {
       name:'自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id:'oyJB76AZa5KrbnNlUmAksC8zAGPs',
+      openUrl: 'https://lml520.mysxl.cn/',
     }
   ],
-  
+  openUrl: 'https://lml520.mysxl.cn/',
   
     SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
