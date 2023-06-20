@@ -21,7 +21,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oyJB76PYpGZjELCRuHq6RGiydvoc;oyJB76AZa5KrbnNlUmAksC8zAGPs',
+      id: 'oyJB76PYpGZjELCRuHq6RGiydvoc',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'yCP4OqBwTjYq6Nuc7zTQfvLUEwdaEfZtUa-ULkZJLXc',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -47,6 +47,38 @@ const USER_CONFIG = {
     },
   ],
 
+  USERS1: [
+    {
+      // 想要发送的人的名字
+      name: '宝贝',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oyJB76AZa5KrbnNlUmAksC8zAGPs',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'yCP4OqBwTjYq6Nuc7zTQfvLUEwdaEfZtUa-ULkZJLXc',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '6-21',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: 'https://lml520.mysxl.cn/',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '老婆', year: '2003', date: '06-21',
+        },
+        {
+          type: '节日', name: '纪念日', year: '2021', date: '11-29',
+        }
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2021-11-29' },
+        // 认识
+        { keyword: 'marry_day', date: '2021-08-17' },
+      ],
+    },
+  ],
+
+  
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID:'yCP4OqBwTjYq6Nuc7zTQfvLUEwdaEfZtUa-ULkZJLXc',
