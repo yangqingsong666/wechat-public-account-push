@@ -48,7 +48,8 @@ const USER_CONFIG = {
     },
   ],
 
-
+  // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+  openUrl: 'https://lml520.mysxl.cn/',
   
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
@@ -63,13 +64,13 @@ const USER_CONFIG = {
   ],
   openUrl: 'https://lml520.mysxl.cn/',
   
-    SLOT_LIST: [
-    // 这样配置的话，就会每次发送这句话
-    { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
-    // 这样配置的话，就会每次随机选一句话发送
-    {
-      keyword: 'lover_prattle',
-      contents: [
+  SLOT_LIST: [
+  // 这样配置的话，就会每次发送这句话
+  { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
+  // 这样配置的话，就会每次随机选一句话发送
+  {
+  keyword: 'lover_prattle',
+  contents: [
         '因为太喜欢你，所以看谁都像是情敌。',
         '你知道墙壁，眼睛，膝盖的英文怎么说么？怎么说？wall,eye,knee，我爱你！',
         '我跨过山，涉过水，见过万物复苏，周而复始，如今山是你，水也是你。',
@@ -83,8 +84,8 @@ const USER_CONFIG = {
         '林深时见鹿，海蓝时见鲸，梦醒时见你。',
         '晓看天色暮看云，行也思君，坐也思君。',
         '遇见你，就好像捡到了100斤的运气。'
-      ],
-    }
+  ],
+  }
     // 你可以不断按格式往下增加
     // ...
   ],
